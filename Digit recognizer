@@ -1,0 +1,11 @@
+In this competition, the main aim is to predict the digit given the image data in pixels.
+I used Principal Component analysis Plus support vector machines algorithm to predict.
+
+1. Input the data.
+2. The data given is very large and it is difficult to predict on this data as it needs a lot of memory.
+3. Principal component analysis is used to reduce the size of the data.
+4. Choosing the right dimension for predicting is difficult task and plot the variability explained and dimensions.
+5. Dimension = 45
+6. Apply svm on the reduced data.
+7.  PCA is again used to reduce size of test data.
+8. prediction on reduced test data from model.
