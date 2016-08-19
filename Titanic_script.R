@@ -3,8 +3,8 @@ library(dplyr)
 library(rpart)
 library(party)
 #input the train and test data
-train=read.csv("train.csv")
-test=read.csv("test.csv")
+train<-read.csv("train.csv")
+test<-read.csv("test.csv")
 all_data <- bind_rows(train, test)
 #tackling the missing data
 #Imputing and Feature Engineering
