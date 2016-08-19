@@ -1,0 +1,12 @@
+In this competition, we have to predict the fate of the passengers aboard the RMS Titanic, which famously sank in the Atlantic ocean during
+its maiden voyage from the UK to New York City after colliding with an iceberg.
+
+1. input the training and testing data set
+2. Merging both the train and test data set by rows
+3. Imputing the fare and embarked data manually as there are very less missing data.
+4. Most important observation in this data was the name was given with titles so the next step is extracting title from name feature.
+5. Title was mainly divided in broadly four categories Mr, Miss, Mrs, and other.
+6. Rare title feature include the titles which are rare.
+7. New features introduced are Family size, fare per person, surname, familyID, child, mother.
+8. Deck feature introduced and imputation of deck variable using cforest.
+9. Predicting the model on Pclass, sex, Age, Fare, Embarked , title, Deck, child, mother, familysize, using cforest.
