@@ -1,5 +1,6 @@
 
-
+#This dataset contains the majority of the integer sequences from the OEIS. It is split into a training set, where you are given 
+#the full sequence, and a test set, where we have removed the last number from the sequence. The task is to predict this removed integer.
 #Loading the data
 train=read.csv("train.csv")
 test=read.csv("test.csv")
