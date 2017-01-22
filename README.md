@@ -1,2 +1,2 @@
 # kaggle-
-Competition scripts and description of how i completed the problem
+Competition scripts, solution and approach to solve Kaggle problems
