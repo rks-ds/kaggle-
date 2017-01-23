@@ -6,7 +6,7 @@ the Titanic reportedly struck an iceberg at 11:40 pm ship's time. The majority o
 
 As always in the Kaggle problem there are two datasets provided. one is train dataset on which model is prepared and another is test dataset on which model is tested. The data provide is-
 
-[!screenshot](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/data.PNG)
+[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/data.PNG)
 
 Datatype given: 
 [!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/data%20type.PNG)
