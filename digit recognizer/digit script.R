@@ -31,11 +31,11 @@ trainlabel<-as.factor(trainlabel)
 #Support Vector Machines
 
 library(e1071)
-model_svm<-svm(Xfinal, trainLabel, kernel="polynomial")
+model_svm<-svm(Xfinal, trainlabel, kernel="polynomial")
 
 #Applying PCA to test data
 
-testLabel<-as.factor(test[,1])
+testlabel<-as.factor(test[,1])
 testreduced<-test/255
 testfinal<-as.matrix(testreduced) %*% Xpca$rotation[,1:45]
 
