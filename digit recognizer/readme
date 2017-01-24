@@ -21,7 +21,7 @@ So as to reduce the data without loosing huge amount of information the best is 
 After Applying PCA and Plotting variance explained Vs Number of Variance Explained. Almost 45 principal Components explained 99% of variance 
 present in the training data.
 
-[!alt tag](thefiercedemon/kaggle-/blob/master/digit%20recognizer/Variance%20Explained.png)
+[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/digit%20recognizer/Variance%20Explained.png)
 
 After PCA which reduced the dimension of the data , Now SVM(Support Vector Machines) can be applied easily using e1071 package in R.
 The support vector algorithm gives a high accuracy and PCA complements the SVM to increase accuracy.
