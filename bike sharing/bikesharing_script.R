@@ -13,6 +13,8 @@ This is the simple model for bike sharing which give RMSLE as 0.47 on leaderboar
 
 The approach is simple getting the hour, weekend and month from datetime provided and applying randomforest.
 
+ library(randomForest)
+  library(ggplot2)
 #reading training and test data
 train=read.csv("train.csv")
 test=read.csv("test.csv")
