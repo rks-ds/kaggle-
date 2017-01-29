@@ -1,0 +1,16 @@
+In this competition the data provided is hourly rental data spanning two years. For this competition, the training set
+is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month. We have to 
+predict the total count of bikes rented during each hour covered by the test set, using onlyinformation available prior
+to the rental period. It is a typical time-series problem
+
+1. Input the training and testing data set
+2. Looking at the data first time gives idea that most information containing variable is date.
+3. First task is to get date, hour ,month and weekday from the datetime variable.
+4. Visualisation of time series data is very important and gives idea of trends.
+5.  Variation in number of bike rented with hour on every day of week and with hour in every season using heatmap.
+6. Variation in number of bike rented with hour in every season ,with hour in different weather and with hour in every weekend
+   using linemap.
+7. Most important catch is that the plot of number of bikes rented is skewed.
+8. Predicting the model on hour, month, year, weekday, windspeed, atemp, humidity, weather, season, holiday, workingday using randomforest.
+   gives 0.47 RMSLE on leaderboard.
+   
