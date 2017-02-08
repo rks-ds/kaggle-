@@ -39,12 +39,12 @@ Looking into during different season
 Visualisng the number of rented cycles change in every hour of a week.
 <p align="center">
   <img src="heatmap.jpg">
- </p>
  
 ![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/heatmap2.jpg)
 
 ![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap.jpg)
 
+</p>
 
 Visualisng the number of rented cycles variation in every hour during different weather
 
