@@ -40,34 +40,34 @@ Visualisng the number of rented cycles change in every hour of a week.
 
 ![alt tag](heatmap.jpg)
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap3.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap3.jpg)
 
 Visualisng the number of rented cycles variation in every hour during different season.
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/heatmap2.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/heatmap2.jpg)
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap.jpg)
 
 
 Visualisng the number of rented cycles variation in every hour during different weather
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap2.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap2.jpg)
 
 Visualising the count variable 
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/count.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/count.jpg)
 
 The count data is skewed
 count is converted into log(count+1) to balance skewness.
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/newcount.jpg)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/newcount.jpg)
 
 Random forest looks the better algoritm right now considering the accuracy parameter as RMSLE.
 Applying randomforest on the independent variables as hour, month, year, weekday, windspeed, atemp,humidity, weather, season, holiday, workingday.
 
 Variable importance plot
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/variable%20importance.png)
+![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/variable%20importance.png)
 
 RMSLE 0.47 on Leaderboard using simple model.
 
