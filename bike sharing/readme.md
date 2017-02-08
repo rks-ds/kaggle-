@@ -48,23 +48,32 @@ Visualisng the number of rented cycles change in every hour of a week.
 
 Visualisng the number of rented cycles variation in every hour during different weather
 
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap2.jpg)
+<p align="center">
+<img src="linemap2.jpg">
+</p>
 
 Visualising the count variable 
 
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/count.jpg)
+<p align="center">
+<img src="count.jpg">
+</p>
+
 
 The count data is skewed
 count is converted into log(count+1) to balance skewness.
 
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/newcount.jpg)
+<p align="center">
+<img src="newcount.jpg">
+</p>
 
 Random forest looks the better algoritm right now considering the accuracy parameter as RMSLE.
 Applying randomforest on the independent variables as hour, month, year, weekday, windspeed, atemp,humidity, weather, season, holiday, workingday.
 
 Variable importance plot
 
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/variable%20importance.png)
+<p align="center">
+<img src="variable%20importance.png">
+</p>
 
 RMSLE 0.47 on Leaderboard using simple model.
 
