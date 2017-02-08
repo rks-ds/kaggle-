@@ -40,9 +40,9 @@ Visualisng the number of rented cycles change in every hour of a week.
 <p align="center">
   <img src="heatmap.jpg">
  
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/heatmap2.jpg)
-
-![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap.jpg)
+  <img src="heatmap2.jpg">
+  
+  <img src="linemap.jpg">
 
 </p>
 
