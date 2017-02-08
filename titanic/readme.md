@@ -6,10 +6,16 @@ the Titanic reportedly struck an iceberg at 11:40 pm ship's time. The majority o
 
 As always in the Kaggle problem there are two datasets provided. one is train dataset on which model is prepared and another is test dataset on which model is tested. The data provide is-
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/data.PNG)
+<p align="center">
+<img src="data.PNG">
+</p>
 
 Datatype given: 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/data%20type.PNG)
+
+<p align="center">
+<img src="data%20type.PNG">
+</p>
+
 
 On observing the data and analysing it. Few of the datatype was changed
 - Survived, Pclass changed to factor variable
@@ -20,7 +26,10 @@ Observing the intial summary and getting the idea of the training data. It was f
 
 For the puppose of cleansing and feature engineering the data it is good to combine both dataset without the dependent variable.
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/summary.PNG)
+<p align="center">
+<img src="summary.PNG">
+</p>
+
 
 The summary showed that Fare and Embarked had very few missing values which can me imputed manually.
 - Embarked missing value was imputed with the dominating class
@@ -28,15 +37,20 @@ The summary showed that Fare and Embarked had very few missing values which can 
 
 Visualising the data to get deep idea
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/visual.png)
+<p align="center">
+<img src="visual.PNG">
+</p>
 
 Inspection of the next feature -- Name -- reveals what could be an even better approach...
 The titles -- Mr., Mrs., Miss., Master. -- following each of the surnames
 On the basis of titles a new variable is made Title which contains all the titles.
 The graph below shows various titles present and on the basis of frequency of the particular title they are again binned into 4 levels-
     Mrs, Mr, rare_title, Miss
-    
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/Title_count.png)
+
+<p align="center">
+<img src="Title_count.PNG">
+</p>
+
 
 Well, there’s those two variables SibSb and Parch that indicate the number of family members the passenger is travelling with. Seems reasonable to assume that a large family might have trouble tracking down little Johnny as they all scramble to get off the sinking ship, so let’s combine the two variables into a new one, FamilySize
 
@@ -50,7 +64,9 @@ Combining the Surname with the family size though should remedy this concern. No
 
 Now lets Look at the fare variable-
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/fare_freq.png)
+<p align="center">
+<img src="fare_freq.png">
+</p>
 
 The fare looks quite skewed. May be due to tickets bought all together which increases the fare.
 so new feature is introduced named as Fare Per Person. As the name suggest Fare of the ticket per person is calculated as Fare divided by the Family size.
@@ -58,26 +74,41 @@ so new feature is introduced named as Fare Per Person. As the name suggest Fare 
 The policy of women and child first must have affected the chances of survival.
 For finding out children and mother the age of each passenger must be known. Looking to the age variable-
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/age-count.png)
+<p align="center">
+<img src="age-count.png">
+</p>
+
+
 
 The graph shows the number of different age persons and it can be easily imputed using predictions. So using party Package in R and predicting the missing values of age variable.
 After imputation-
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/imputedage-freq.png)
+<p align="center">
+<img src="imputedage-freq.png">
+</p>
+
 
 After the age variable is imputed now Child and Mother variable can be created.
 Child variable is created on the basis of age
 Mother variable is created on the basis of sex, age and title.
-[alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/child.png)
+<p align="center">
+<img src="child.png">
+</p>
 
-[alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/mother.png)
+
+<p align="center">
+<img src="mother.png">
+</p>
+
 
 
 Now after the cleansing and feature engineering is done, the model is prepared using party package which also gives a random Forest but a robust one.
 
 Plotting the feature importance and using only the important variable at last for submission.
 
-[!alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/titanic/variable_importance.png)
+<p align="center">
+<img src="variable_importance.png">
+</p>
 
 Deep Dive in the data! :)
 
