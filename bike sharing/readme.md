@@ -37,8 +37,7 @@ The most information containing variable is datetime and the weekday, month, dat
 Looking into during different season
 
 Visualisng the number of rented cycles change in every hour of a week.
-
-![alt tag](heatmap.jpg)
+<img align="center" src="heatmap.jpg">
 
 ![alt tag](https://github.com/thefiercedemon/kaggle-/blob/master/bike%20sharing/linemap3.jpg)
 
