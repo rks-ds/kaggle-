@@ -38,7 +38,7 @@ The summary showed that Fare and Embarked had very few missing values which can 
 Visualising the data to get deep idea
 
 <p align="center">
-<img src="visual.PNG">
+<img src="visual.png">
 </p>
 
 Inspection of the next feature -- Name -- reveals what could be an even better approach...
@@ -48,7 +48,7 @@ The graph below shows various titles present and on the basis of frequency of th
     Mrs, Mr, rare_title, Miss
 
 <p align="center">
-<img src="Title_count.PNG">
+<img src="Title_count.png">
 </p>
 
 
